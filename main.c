@@ -1,9 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 // This is the first program
-// which demonstrates the use of the editor
-// It is the standard, Kernighan and Ritchie's "Hello world!"
+//and the use of the pointers and memory allocation
 void main(void)
 {
-	printf("Hello World!\n");
+	char* pPointer = NULL; 
+
+	pPointer = (char *) malloc(5);
+
+	strcpy(pPointer, "test");
+
+	printf("%s", pPointer);
+
+	free(pPointer);
 }
