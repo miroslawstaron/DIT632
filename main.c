@@ -5,5 +5,6 @@
 //and the use of the pointers and memory allocation
 void main(void)
 {
-	printf("Hello world!\n");
+	for (int i= 0; i<10; i++)
+		printf("Hello number %d\n", i);
 }
