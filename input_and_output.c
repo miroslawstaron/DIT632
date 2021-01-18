@@ -9,7 +9,7 @@
 * Author: Miroslaw Staron, 2021
 *
 **/
-int main(int argc, 
+int main2(int argc, 
 	char** argv)
 {
 	// variable declarations
