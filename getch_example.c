@@ -17,7 +17,7 @@ void clearstdin(void) {
 * DIT632, Lecture 1
 * Author: miroslaw.staron@gu.se
 */
-int main(void) {
+int main_getch(void) {
 	
 	// variable declaration
 	int n = 0;		// index of the last position in the string

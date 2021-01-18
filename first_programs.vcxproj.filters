@@ -15,13 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="input_and_output.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="getch_example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="loops.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="getch_example.c" />
     <ClCompile Include="input_and_output.c" />
+    <ClCompile Include="loops.c" />
     <ClCompile Include="main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
