@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="fgets.c" />
     <ClCompile Include="getch_example.c" />
     <ClCompile Include="input_and_output.c" />
     <ClCompile Include="loops.c" />

@@ -14,12 +14,15 @@ void main(void)
 {
 	// Execute the examples with the loops
 	// generating random numbers
-	main_loops();
+	//main_loops();
 
 	// examples of reading and printing values
 	// on the console
-	main_inout();
+	//main_inout();
 
 	// examples or reading using getchar()
-	main_getch();
+	//main_getch();
+
+	// examples with fgets()
+	main_fgets();
 }
