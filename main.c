@@ -26,7 +26,8 @@ void main(void)
 	// examples with fgets()
 	//main_fgets();
 
-	printf("F: %d\n", fibonacci(6));
-
-	printf("Assert: %s\n", ASSERT_TRUE(13, fibonacci(6)) ? "TRUE" : "FALSE");
+	// example of an assertion, i.e. the basics of a unit test
+	printf("Assert: %s\n", 
+			ASSERT_TRUE(12, 
+						fibonacci(6)) ? "TRUE" : "FALSE");
 }
