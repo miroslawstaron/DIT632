@@ -24,5 +24,9 @@ void main(void)
 	//main_getch();
 
 	// examples with fgets()
-	main_fgets();
+	//main_fgets();
+
+	printf("F: %d\n", fibonacci(6));
+
+	printf("Assert: %s\n", ASSERT_TRUE(13, fibonacci(6)) ? "TRUE" : "FALSE");
 }
