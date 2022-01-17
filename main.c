@@ -12,9 +12,13 @@
 */
 void main(void)
 {
+	// let's check if the program works at all
+	printf("%s", "Hello World!");
+
+
 	// Execute the examples with the loops
 	// generating random numbers
-	//main_loops();
+	// main_loops();
 
 	// examples of reading and printing values
 	// on the console
@@ -27,7 +31,5 @@ void main(void)
 	//main_fgets();
 
 	// example of an assertion, i.e. the basics of a unit test
-	printf("Assert: %s\n", 
-			ASSERT_TRUE(12, 
-						fibonacci(6)) ? "TRUE" : "FALSE");
+	// printf("Assert: %s\n", ASSERT_TRUE(12, fibonacci(6)) ? "TRUE" : "FALSE");
 }
