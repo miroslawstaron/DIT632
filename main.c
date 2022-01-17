@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /*
-* Program that integrates all parts from the lecture
+* Program that integrates all parts from Lecture 1
 * 
 * Course: DIT632
 * Author: miroslaw.staron@gu.se
