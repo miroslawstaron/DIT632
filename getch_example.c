@@ -41,8 +41,6 @@ int main_getch(void) {
 		n++;
 	}
 
-	(c = getchar()); 
-
 	printf("%c", c);
 
 	// after the loop, we add the 0 to the string to mark its end
