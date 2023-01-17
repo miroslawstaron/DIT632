@@ -18,12 +18,12 @@
 * Author: Miroslaw Staron, 2021
 * 
 **/ 
-int main_loops(int argc, char* argv[])
+int main_loops()
 {
     // variable declarations
     int n,              // index of the loop
         number[MAX];    // array with the numbers to generate
-
+    
     int sum = 0,            // initialization of the sum
         max_num = -32768;   // initialization of the max which is any negative number 
                             // to be sure that we never use this initial value as maximum
@@ -33,7 +33,7 @@ int main_loops(int argc, char* argv[])
     // program logic 
 
     // we generate the first random number
-    srand(time(0));
+    srand(42);
 
     puts("\n Creating a table of integers...");
 
@@ -46,7 +46,7 @@ int main_loops(int argc, char* argv[])
         number[n] = rand() % 100;
 
         // printing the n-th index and the generated number
-        printf("\n Integer nr %d   are %d .", 
+        printf("\n Integer nr %d are %d.", 
                n, 
                number[n]);
 
@@ -59,7 +59,7 @@ int main_loops(int argc, char* argv[])
     average = (float)sum / n;
 
     // finally, printing the result
-    printf("\n\n Average= %f ", average);
+    printf("\n\n %s = %f ", "Average", average);
 
     // and leaving the program
     return (0);

@@ -32,7 +32,7 @@ int main_getch(void) {
 	// Note! Please take a look at the brackets in the while condition
 	// if you want to, remove some of them and see what happens
 	// in most cases the program will compile, but the results will be very different
-	while ((c = getchar()) != '\n') {
+	while ((c = getchar()) != 'a') {
 
 		// adding the character that is read by getchar() to the string
 		text[n] = c;
@@ -40,6 +40,10 @@ int main_getch(void) {
 		// and updating the string's position
 		n++;
 	}
+
+	(c = getchar()); 
+
+	printf("%c", c);
 
 	// after the loop, we add the 0 to the string to mark its end
 	text[n] = '\0';

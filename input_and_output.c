@@ -13,7 +13,7 @@ int main_inout(int argc, char** argv)
 {
 	// variable declarations
 
-	int a,	// integer to store the first number
+	int a = 0,	// integer to store the first number
 		b,	// integer to store the second number
 		c;	// integer to store the third number
 
@@ -33,7 +33,7 @@ int main_inout(int argc, char** argv)
 
 	// Note! the first parameter is different than in the previous block
 	scanf("%d", &a);
-	printf("\nThe number is %d ", a);
+	printf("\nThe number is %d ", &a);
 
 	// entering the socond number
 	printf("\nEnter two numbers:  ");
