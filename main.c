@@ -6,15 +6,18 @@
 /*
 * Program that integrates all parts from Lecture 1
 * 
-* Course: DIT632
+* Course: DIT633
 * Author: miroslaw.staron@gu.se
 * (c) 2021
 */
 
-void main(void)
+void main(int argc, char *argv[])
 {
 	// let's check if the program works at all
-	// printf("%s", "Hello World!\0");
+	// printf("%d", argc);
+	
+	// the first argument
+	printf("The first argument %s", argv[1]);
 
 	// Execute the examples with the loops
 	// generating random numbers
@@ -25,7 +28,7 @@ void main(void)
 	// main_inout();
 
 	// examples or reading using getchar()
-	main_getch();
+	// main_getch();
 
 	// examples with fgets()
 	// main_fgets();
