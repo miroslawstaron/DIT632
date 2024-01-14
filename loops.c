@@ -13,7 +13,7 @@
 * and the basic calculations in C
 * 
 * Purpose: Demonstration of comments and program logic
-* DIT632
+* DIT633
 * 
 * Author: Miroslaw Staron, 2021
 * 
@@ -32,7 +32,7 @@ int main_loops()
 
     // program logic 
 
-    // we generate the first random number
+    // we set the seed of the random generator
     srand(42);
 
     puts("\n Creating a table of integers...");
