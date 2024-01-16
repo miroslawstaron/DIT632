@@ -9,15 +9,17 @@
 * Author: Miroslaw Staron, 2021
 *
 **/
-int main_inout(int argc, char** argv)
+int main_inout()
 {
 	// variable declarations
 
 	int a = 0,	// integer to store the first number
 		b,	// integer to store the second number
 		c;	// integer to store the third number
-
-	char name[20];	// string to store the name; Note! the max length can only be 20
+	
+	int d[1];
+	
+	char name[20] ;	// string to store the name; Note! the max length can only be 20
 					// please check what happens when you enter the name that is longer than 20 characters
 	
 	// Entering name
@@ -33,8 +35,16 @@ int main_inout(int argc, char** argv)
 
 	// Note! the first parameter is different than in the previous block
 	scanf("%d", &a);
-	printf("\nThe number is %d ", &a);
+	printf("\nThe number is %x ", a);
+	
+	// the second block for reading the first number
+	printf("\nEnter a number d: ");
 
+	// Note! the first parameter is different than in the previous block
+	scanf("%d", d);
+	printf("\nThe number is %d ", d[0]);
+
+	
 	// entering the socond number
 	printf("\nEnter two numbers:  ");
 

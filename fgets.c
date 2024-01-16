@@ -1,6 +1,6 @@
 
 // define max number of characters to read from the console
-#define MAX 10
+#define MAX 20
 
 /*
 * Example of using fgets()
@@ -31,5 +31,5 @@ int main_fgets(void) {
 	// Causes problem if you type in too many characters to in_text
 	// use fgets( in_text, MAX,stdin);
 	// leaves characters in buffer , use clearstdin();
-	return(0);
+	return 0;
 }
